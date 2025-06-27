@@ -1,0 +1,92 @@
+.card {
+  position: relative;
+  margin: 0;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  width: 360px;
+  height: 500px;
+  background-color: var(--main-bg);
+  border-radius: 35px;
+  padding: 26px;
+  gap: 25px;
+  overflow: hidden;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.heading {
+  position: relative;
+  top: 8px;
+  z-index: 2;
+  color: white;
+}
+.heading > h1 {
+  font-size: 1.5;
+}
+.heading > h2 {
+  font-size: 1em;
+  font-weight: 500;
+}
+.text {
+  z-index: 2;
+  color: rgb(199, 199, 199);
+  font-size: 0.8em;
+}
+.ratingGroup {
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: auto;
+  gap: 10px;
+}
+
+.ratingGroup > * {
+  background-color: var(--accent-color);
+  border-radius: 20px;
+  padding: 2px 6px 2px 6px;
+  color: rgb(214, 214, 214);
+  font-size: 0.9em;
+}
+
+.reserve {
+  z-index: 1;
+  border: none;
+  width: 100%;
+  height: 40px;
+  border-radius: 30px;
+  background-color: white;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.blur {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 85%;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0);
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.752) 30%,
+    black 20%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgb(0, 0, 0) 40%,
+    black 80%
+  );
+  padding: 20px;
+}
+.imgBg {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}

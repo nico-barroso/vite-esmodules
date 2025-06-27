@@ -1,0 +1,107 @@
+/* ==== CSS RESET ==== */
+
+/* Box sizing: border-box por defecto para todos los elementos */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Quitar márgenes y paddings por defecto */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Establecer altura base y evitar scroll horizontal */
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* Mejora del texto */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: system-ui, sans-serif;
+}
+
+/* Quitar decoración por defecto de listas */
+ul[role="list"],
+ol[role="list"],
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* Quitar estilos por defecto en enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Imágenes y medios: que no se desborden */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Formularios básicos */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Botón accesible */
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* Quitar bordes y outline */
+:focus {
+  outline: none;
+}
+
+/* Root para futuras variables */
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --font-base: system-ui, sans-serif;
+}
+
+/* Normalize scroll para dispositivos con touch */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  padding: 30px;
+  background-color: rgb(227, 154, 18);
+}
