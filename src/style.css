@@ -103,5 +103,11 @@ html:focus-within {
 body {
   display: flex;
   padding: 30px;
-  background-color: rgb(227, 154, 18);
+}
+
+.card-holder {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
 }

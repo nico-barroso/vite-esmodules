@@ -1,6 +1,5 @@
 import "./style.css";
 import { Card } from "./Card/Card";
-import { Home } from "./pages/home";
 import { title } from "../utils/titleGenerator/title";
 
 const main = () => {
