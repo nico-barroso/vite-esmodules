@@ -1,8 +1,3 @@
-Perfecto. Aquí tienes un README.md completo y en español, pensado para que sea autoexplicativo, didáctico y útil como píldora informativa para tu equipo:
-
-⸻
-
-
 # Componente Card – Píldora Informativa
 
 Este proyecto demuestra cómo crear un componente visual reutilizable (`Card`) con **JavaScript Vanilla** y **CSS Modules**, usando **Vite** como entorno de desarrollo. Es una pequeña píldora informativa pensada para entender conceptos clave como la modularización, el uso de estilos aislados y la generación dinámica de elementos.
